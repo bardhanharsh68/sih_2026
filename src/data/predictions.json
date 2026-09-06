@@ -1,0 +1,289 @@
+{
+  "SCR-001": {
+    "patientId": "PAT-001",
+    "severity": "moderate",
+    "severityLabel": "Moderate NPDR",
+    "severityLabelHi": "मध्यम एनपीडीआर",
+    "confidence": 87,
+    "findings": [
+      {
+        "type": "microaneurysms",
+        "label": "Microaneurysms",
+        "labelHi": "माइक्रोएन्यूरिज्म",
+        "location": "Temporal to macula",
+        "locationHi": "मैक्युला के अस्थायी भाग में",
+        "count": 12
+      },
+      {
+        "type": "hemorrhages",
+        "label": "Dot & Blot Hemorrhages",
+        "labelHi": "डॉट और ब्लॉट रक्तस्राव",
+        "location": "Inferior arcade",
+        "locationHi": "निचला आर्केड",
+        "count": 5
+      },
+      {
+        "type": "exudates",
+        "label": "Hard Exudates",
+        "labelHi": "कठोर एक्सुडेट्स",
+        "location": "Near macula",
+        "locationHi": "मैक्युला के पास",
+        "count": 3
+      }
+    ],
+    "explanation": "The model detected 12 small red spots called microaneurysms in the temporal region near the macula, along with 5 dot-and-blot hemorrhages in the inferior arcade. Additionally, 3 hard exudates (yellow-white deposits) were found near the macula. These findings are consistent with Moderate Non-Proliferative Diabetic Retinopathy.",
+    "explanationHi": "मॉडल ने मैक्युला के पास टेम्पोरल क्षेत्र में 12 छोटे लाल धब्बे (माइक्रोएन्यूरिज्म) का पता लगाया, साथ ही निचले आर्केड में 5 डॉट-एंड-ब्लॉट रक्तस्राव पाए। इसके अलावा, मैक्युला के पास 3 कठोर एक्सुडेट्स (पीले-सफेद जमाव) पाए गए। ये निष्कर्ष मध्यम गैर-प्रसारी डायबिटिक रेटिनोपैथी के अनुरूप हैं।",
+    "referral": {
+      "required": true,
+      "urgency": "moderate",
+      "recommendation": "Refer to ophthalmologist within 2 weeks for comprehensive dilated eye examination.",
+      "recommendationHi": "व्यापक फैली हुई आंख की जांच के लिए 2 सप्ताह के भीतर नेत्र रोग विशेषज्ञ के पास भेजें।"
+    }
+  },
+  "SCR-002": {
+    "patientId": "PAT-002",
+    "severity": "severe",
+    "severityLabel": "Severe NPDR",
+    "severityLabelHi": "गंभीर एनपीडीआर",
+    "confidence": 93,
+    "findings": [
+      {
+        "type": "hemorrhages",
+        "label": "Extensive Hemorrhages",
+        "labelHi": "व्यापक रक्तस्राव",
+        "location": "All four quadrants",
+        "locationHi": "सभी चार चतुर्भुजों में",
+        "count": 20
+      },
+      {
+        "type": "microaneurysms",
+        "label": "Microaneurysms",
+        "labelHi": "माइक्रोएन्यूरिज्म",
+        "location": "Diffuse",
+        "locationHi": "फैला हुआ",
+        "count": 30
+      },
+      {
+        "type": "venous_beading",
+        "label": "Venous Beading",
+        "labelHi": "शिरापरक बीडिंग",
+        "location": "Superior and inferior arcades",
+        "locationHi": "ऊपरी और निचला आर्केड",
+        "count": 2
+      }
+    ],
+    "explanation": "The model identified extensive hemorrhages across all four retinal quadrants (20+ spots), widespread microaneurysms (30+), and venous beading in two arcades. The 4-2-1 rule criteria are nearly met, indicating Severe Non-Proliferative Diabetic Retinopathy with high risk of progression.",
+    "explanationHi": "मॉडल ने सभी चार रेटिनल चतुर्भुजों में व्यापक रक्तस्राव (20+ धब्बे), व्यापक माइक्रोएन्यूरिज्म (30+), और दो आर्केड में शिरापरक बीडिंग की पहचान की। 4-2-1 नियम मानदंड लगभग पूरे हो गए हैं, जो गंभीर गैर-प्रसारी डायबिटिक रेटिनोपैथी को इंगित करता है।",
+    "referral": {
+      "required": true,
+      "urgency": "high",
+      "recommendation": "Urgent referral to ophthalmologist within 1 week. High risk of progression to proliferative DR.",
+      "recommendationHi": "1 सप्ताह के भीतर नेत्र रोग विशेषज्ञ के पास तत्काल रेफरल। प्रोलिफेरेटिव डीआर में बढ़ने का उच्च जोखिम।"
+    }
+  },
+  "SCR-003": {
+    "patientId": "PAT-003",
+    "severity": "none",
+    "severityLabel": "No DR Detected",
+    "severityLabelHi": "कोई डीआर नहीं पाया गया",
+    "confidence": 96,
+    "findings": [],
+    "explanation": "The retinal image appears healthy. No microaneurysms, hemorrhages, exudates, or other signs of diabetic retinopathy were detected. The optic disc, macula, and retinal vasculature appear normal.",
+    "explanationHi": "रेटिनल छवि स्वस्थ दिखाई देती है। कोई माइक्रोएन्यूरिज्म, रक्तस्राव, एक्सुडेट्स, या डायबिटिक रेटिनोपैथी के अन्य लक्षण नहीं पाए गए। ऑप्टिक डिस्क, मैक्युला और रेटिनल वास्कुलेचर सामान्य दिखाई देते हैं।",
+    "referral": {
+      "required": false,
+      "urgency": "none",
+      "recommendation": "No referral needed. Recommend annual diabetic eye screening.",
+      "recommendationHi": "कोई रेफरल आवश्यक नहीं। वार्षिक डायबिटिक नेत्र जांच की सिफारिश।"
+    }
+  },
+  "SCR-004": {
+    "patientId": "PAT-004",
+    "severity": "mild",
+    "severityLabel": "Mild NPDR",
+    "severityLabelHi": "हल्का एनपीडीआर",
+    "confidence": 78,
+    "findings": [
+      {
+        "type": "microaneurysms",
+        "label": "Microaneurysms",
+        "labelHi": "माइक्रोएन्यूरिज्म",
+        "location": "Temporal region",
+        "locationHi": "टेम्पोरल क्षेत्र",
+        "count": 4
+      }
+    ],
+    "explanation": "The model detected a small number of microaneurysms (4) in the temporal region. No hemorrhages, exudates, or other pathology were found. This is consistent with early Mild Non-Proliferative Diabetic Retinopathy.",
+    "explanationHi": "मॉडल ने टेम्पोरल क्षेत्र में कम संख्या में माइक्रोएन्यूरिज्म (4) का पता लगाया। कोई रक्तस्राव, एक्सुडेट्स, या अन्य पैथोलॉजी नहीं पाई गई। यह प्रारंभिक हल्के गैर-प्रसारी डायबिटिक रेटिनोपैथी के अनुरूप है।",
+    "referral": {
+      "required": false,
+      "urgency": "low",
+      "recommendation": "No immediate referral needed. Schedule follow-up screening in 6 months.",
+      "recommendationHi": "तत्काल रेफरल की आवश्यकता नहीं। 6 महीने में फॉलो-अप स्क्रीनिंग शेड्यूल करें।"
+    }
+  },
+  "SCR-005": {
+    "patientId": "PAT-005",
+    "severity": "proliferative",
+    "severityLabel": "Proliferative DR",
+    "severityLabelHi": "प्रोलिफेरेटिव डीआर",
+    "confidence": 91,
+    "findings": [
+      {
+        "type": "neovascularization",
+        "label": "Neovascularization",
+        "labelHi": "नवविकसित रक्तवाहिकाएं",
+        "location": "Optic disc and elsewhere",
+        "locationHi": "ऑप्टिक डिस्क और अन्य स्थान",
+        "count": 3
+      },
+      {
+        "type": "hemorrhages",
+        "label": "Vitreous Hemorrhage",
+        "labelHi": "विट्रियस रक्तस्राव",
+        "location": "Pre-retinal",
+        "locationHi": "प्री-रेटिनल",
+        "count": 2
+      },
+      {
+        "type": "fibrous_tissue",
+        "label": "Fibrous Proliferation",
+        "labelHi": "रेशेदार प्रसार",
+        "location": "Along superior arcade",
+        "locationHi": "ऊपरी आर्केड के साथ",
+        "count": 1
+      }
+    ],
+    "explanation": "The model detected new abnormal blood vessels (neovascularization) at the optic disc and in other retinal areas, along with pre-retinal hemorrhage and fibrous tissue proliferation. These findings indicate Proliferative Diabetic Retinopathy — the most advanced stage — with immediate risk of vision loss.",
+    "explanationHi": "मॉडल ने ऑप्टिक डिस्क और अन्य रेटिनल क्षेत्रों में नई असामान्य रक्त वाहिकाओं (नवविकसित रक्तवाहिकाएं) का पता लगाया, साथ ही प्री-रेटिनल रक्तस्राव और रेशेदार ऊतक प्रसार पाया। ये निष्कर्ष प्रोलिफेरेटिव डायबिटिक रेटिनोपैथी को इंगित करते हैं — सबसे उन्नत चरण — जिसमें दृष्टि हानि का तत्काल जोखिम है।",
+    "referral": {
+      "required": true,
+      "urgency": "critical",
+      "recommendation": "EMERGENCY: Refer to retina specialist immediately (within 24-48 hours). Risk of vitreous hemorrhage and retinal detachment.",
+      "recommendationHi": "आपातकालीन: तुरंत (24-48 घंटों के भीतर) रेटिना विशेषज्ञ के पास भेजें। विट्रियस रक्तस्राव और रेटिनल डिटैचमेंट का जोखिम।"
+    }
+  },
+  "SCR-006": {
+    "patientId": "PAT-006",
+    "severity": "none",
+    "severityLabel": "No DR Detected",
+    "severityLabelHi": "कोई डीआर नहीं पाया गया",
+    "confidence": 98,
+    "findings": [],
+    "explanation": "The retinal image shows a healthy fundus with no signs of diabetic retinopathy. All structures appear normal.",
+    "explanationHi": "रेटिनल छवि स्वस्थ फंडस दिखाती है जिसमें डायबिटिक रेटिनोपैथी के कोई लक्षण नहीं हैं। सभी संरचनाएं सामान्य दिखाई देती हैं।",
+    "referral": {
+      "required": false,
+      "urgency": "none",
+      "recommendation": "No referral needed. Continue annual screening.",
+      "recommendationHi": "कोई रेफरल आवश्यक नहीं। वार्षिक स्क्रीनिंग जारी रखें।"
+    }
+  },
+  "SCR-007": {
+    "patientId": "PAT-007",
+    "severity": "moderate",
+    "severityLabel": "Moderate NPDR",
+    "severityLabelHi": "मध्यम एनपीडीआर",
+    "confidence": 84,
+    "findings": [
+      {
+        "type": "microaneurysms",
+        "label": "Microaneurysms",
+        "labelHi": "माइक्रोएन्यूरिज्म",
+        "location": "Perifoveal region",
+        "locationHi": "पेरीफोवियल क्षेत्र",
+        "count": 8
+      },
+      {
+        "type": "hemorrhages",
+        "label": "Dot Hemorrhages",
+        "labelHi": "डॉट रक्तस्राव",
+        "location": "Nasal quadrant",
+        "locationHi": "नाक का चतुर्भुज",
+        "count": 4
+      }
+    ],
+    "explanation": "The model found 8 microaneurysms in the perifoveal region and 4 dot hemorrhages in the nasal quadrant. This pattern suggests Moderate Non-Proliferative Diabetic Retinopathy requiring close monitoring.",
+    "explanationHi": "मॉडल ने पेरीफोवियल क्षेत्र में 8 माइक्रोएन्यूरिज्म और नाक के चतुर्भुज में 4 डॉट रक्तस्राव पाए। यह पैटर्न मध्यम गैर-प्रसारी डायबिटिक रेटिनोपैथी का सुझाव देता है।",
+    "referral": {
+      "required": true,
+      "urgency": "moderate",
+      "recommendation": "Refer to ophthalmologist within 2 weeks.",
+      "recommendationHi": "2 सप्ताह के भीतर नेत्र रोग विशेषज्ञ के पास भेजें।"
+    }
+  },
+  "SCR-008": {
+    "patientId": "PAT-008",
+    "severity": "mild",
+    "severityLabel": "Mild NPDR",
+    "severityLabelHi": "हल्का एनपीडीआर",
+    "confidence": 82,
+    "findings": [
+      {
+        "type": "microaneurysms",
+        "label": "Microaneurysms",
+        "labelHi": "माइक्रोएन्यूरिज्म",
+        "location": "Superior temporal",
+        "locationHi": "ऊपरी टेम्पोरल",
+        "count": 3
+      }
+    ],
+    "explanation": "A few microaneurysms (3) were detected in the superior temporal region. No other pathology found. Consistent with early Mild NPDR.",
+    "explanationHi": "ऊपरी टेम्पोरल क्षेत्र में कुछ माइक्रोएन्यूरिज्म (3) पाए गए। कोई अन्य पैथोलॉजी नहीं मिली। प्रारंभिक हल्के एनपीडीआर के अनुरूप।",
+    "referral": {
+      "required": false,
+      "urgency": "low",
+      "recommendation": "No immediate referral. Follow-up in 6 months.",
+      "recommendationHi": "तत्काल रेफरल नहीं। 6 महीने में फॉलो-अप।"
+    }
+  },
+  "SCR-009": {
+    "patientId": "PAT-009",
+    "severity": "severe",
+    "severityLabel": "Severe NPDR",
+    "severityLabelHi": "गंभीर एनपीडीआर",
+    "confidence": 89,
+    "findings": [
+      {
+        "type": "hemorrhages",
+        "label": "Hemorrhages",
+        "labelHi": "रक्तस्राव",
+        "location": "All quadrants",
+        "locationHi": "सभी चतुर्भुज",
+        "count": 25
+      },
+      {
+        "type": "cotton_wool",
+        "label": "Cotton Wool Spots",
+        "labelHi": "कॉटन वूल स्पॉट्स",
+        "location": "Peripapillary",
+        "locationHi": "पेरीपैपिलरी",
+        "count": 4
+      }
+    ],
+    "explanation": "Extensive hemorrhages found in all four quadrants (25+) with cotton wool spots near the optic disc. High-risk Severe NPDR requiring urgent specialist review.",
+    "explanationHi": "सभी चार चतुर्भुजों में व्यापक रक्तस्राव (25+) और ऑप्टिक डिस्क के पास कॉटन वूल स्पॉट्स पाए गए। उच्च जोखिम वाली गंभीर एनपीडीआर जिसमें तत्काल विशेषज्ञ समीक्षा आवश्यक है।",
+    "referral": {
+      "required": true,
+      "urgency": "high",
+      "recommendation": "Urgent referral within 1 week to prevent progression.",
+      "recommendationHi": "बढ़ने से रोकने के लिए 1 सप्ताह के भीतर तत्काल रेफरल।"
+    }
+  },
+  "SCR-010": {
+    "patientId": "PAT-010",
+    "severity": "none",
+    "severityLabel": "No DR Detected",
+    "severityLabelHi": "कोई डीआर नहीं पाया गया",
+    "confidence": 95,
+    "findings": [],
+    "explanation": "Healthy retina with no abnormalities detected. Clear optic disc margins, normal macula, and healthy vasculature.",
+    "explanationHi": "स्वस्थ रेटिना, कोई असामान्यता नहीं पाई गई। स्पष्ट ऑप्टिक डिस्क मार्जिन, सामान्य मैक्युला और स्वस्थ वास्कुलेचर।",
+    "referral": {
+      "required": false,
+      "urgency": "none",
+      "recommendation": "No referral needed. Annual follow-up recommended.",
+      "recommendationHi": "कोई रेफरल आवश्यक नहीं। वार्षिक फॉलो-अप की सिफारिश।"
+    }
+  }
+}

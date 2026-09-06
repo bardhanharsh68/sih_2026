@@ -1,0 +1,94 @@
+.heatmap-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.heatmap-image-stack {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  background: #000;
+}
+
+.heatmap-base-image,
+.heatmap-overlay-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.heatmap-overlay-image {
+  transition: opacity 0.15s ease;
+  mix-blend-mode: screen;
+}
+
+.heatmap-controls {
+  padding: 14px 18px;
+  border-radius: var(--radius-md) !important;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.heatmap-toggle-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.heatmap-toggle-labels span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: color var(--transition-fast);
+}
+
+.heatmap-toggle-labels .active-label {
+  color: var(--accent-primary);
+  font-weight: 600;
+}
+
+/* Custom range slider */
+.heatmap-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 6px;
+  background: linear-gradient(90deg, var(--glass-border), var(--accent-primary));
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+}
+
+.heatmap-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: white;
+  border: 3px solid var(--accent-primary);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  cursor: pointer;
+  transition: transform var(--transition-fast);
+}
+
+.heatmap-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+}
+
+.heatmap-slider::-moz-range-thumb {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: white;
+  border: 3px solid var(--accent-primary);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  cursor: pointer;
+}

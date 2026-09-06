@@ -1,0 +1,296 @@
+{
+  "en": {
+    "app": {
+      "title": "RetinAI — DR Screening",
+      "subtitle": "Explainable AI for Diabetic Retinopathy",
+      "tagline": "AI-powered retinal screening for rural India"
+    },
+    "login": {
+      "welcome": "Welcome",
+      "signIn": "Sign In",
+      "selectRole": "Select Your Role",
+      "healthWorker": "Health Worker",
+      "physician": "Physician",
+      "admin": "Administrator",
+      "enterName": "Enter your name",
+      "name": "Your Name"
+    },
+    "nav": {
+      "dashboard": "Dashboard",
+      "newScreening": "New Screening",
+      "records": "Records",
+      "settings": "Settings",
+      "analytics": "Analytics"
+    },
+    "dashboard": {
+      "greeting": "Welcome back",
+      "newScreening": "New Screening",
+      "startScreening": "Start a new DR screening",
+      "recentScreenings": "Recent Screenings",
+      "totalScreenings": "Total Screenings",
+      "drPositive": "DR Positive",
+      "referrals": "Referrals Made",
+      "viewAll": "View All",
+      "noScreenings": "No screenings yet"
+    },
+    "intake": {
+      "title": "Patient Information",
+      "subtitle": "Enter patient details before screening",
+      "name": "Full Name",
+      "age": "Age",
+      "gender": "Gender",
+      "male": "Male",
+      "female": "Female",
+      "other": "Other",
+      "village": "Village / Location",
+      "patientId": "Patient ID",
+      "phone": "Phone Number",
+      "continue": "Continue to Scan",
+      "required": "Required field"
+    },
+    "upload": {
+      "title": "Retinal Image Capture",
+      "subtitle": "Upload or capture a fundus image for AI analysis",
+      "dragDrop": "Drag & drop retinal image here",
+      "or": "or",
+      "browse": "Browse Files",
+      "camera": "Use Camera",
+      "useSample": "Use Sample Image",
+      "supportedFormats": "Supported: JPG, PNG (max 10MB)",
+      "analyze": "Analyze Image",
+      "preview": "Image Preview",
+      "remove": "Remove"
+    },
+    "processing": {
+      "analyzing": "Analyzing Retinal Image",
+      "step1": "Preprocessing image...",
+      "step2": "Running AI model...",
+      "step3": "Generating explanation...",
+      "step4": "Preparing results...",
+      "pleaseWait": "This usually takes a few seconds"
+    },
+    "result": {
+      "title": "Screening Result",
+      "severity": "DR Severity Grade",
+      "confidence": "AI Confidence",
+      "explainability": "AI Explanation",
+      "heatmapToggle": "Explainability Heatmap",
+      "showHeatmap": "Show Heatmap",
+      "hideHeatmap": "Hide Heatmap",
+      "rawImage": "Original",
+      "overlay": "AI Overlay",
+      "findings": "Detected Findings",
+      "explanation": "Plain Language Explanation",
+      "referral": "Referral Recommendation",
+      "save": "Save to Record",
+      "export": "Export PDF",
+      "share": "Share via SMS",
+      "newScreening": "New Screening",
+      "saved": "Saved successfully!",
+      "exported": "PDF exported!"
+    },
+    "severity": {
+      "none": "No DR",
+      "mild": "Mild",
+      "moderate": "Moderate",
+      "severe": "Severe",
+      "proliferative": "Proliferative"
+    },
+    "history": {
+      "title": "Patient Records",
+      "subtitle": "View past screening records",
+      "search": "Search by name or ID...",
+      "filterVillage": "Filter by village",
+      "filterSeverity": "Filter by severity",
+      "all": "All",
+      "noResults": "No records found",
+      "date": "Date",
+      "patient": "Patient",
+      "village": "Village",
+      "result": "Result"
+    },
+    "admin": {
+      "title": "Analytics Dashboard",
+      "subtitle": "Screening program overview",
+      "thisMonth": "This Month",
+      "drRate": "DR Positive Rate",
+      "screeningsOverTime": "Screenings Over Time",
+      "byVillage": "By Village",
+      "bySeverity": "Severity Distribution",
+      "recentScreenings": "Recent Screenings"
+    },
+    "settings": {
+      "title": "Settings",
+      "language": "Language",
+      "theme": "Theme",
+      "lightMode": "Light Mode",
+      "darkMode": "Dark Mode",
+      "profile": "Profile",
+      "offline": "Offline Mode",
+      "offlineDesc": "Queue screenings for sync when connected",
+      "about": "About",
+      "version": "Version 1.0.0 — SIH 2026",
+      "logout": "Log Out"
+    },
+    "offline": {
+      "status": "Offline — Results queued for sync",
+      "syncing": "Syncing...",
+      "synced": "All data synced"
+    },
+    "common": {
+      "back": "Back",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "loading": "Loading...",
+      "error": "Something went wrong",
+      "retry": "Retry"
+    }
+  },
+  "hi": {
+    "app": {
+      "title": "RetinAI — डीआर स्क्रीनिंग",
+      "subtitle": "डायबिटिक रेटिनोपैथी के लिए एक्सप्लेनेबल AI",
+      "tagline": "ग्रामीण भारत के लिए AI-संचालित रेटिनल स्क्रीनिंग"
+    },
+    "login": {
+      "welcome": "स्वागत है",
+      "signIn": "साइन इन करें",
+      "selectRole": "अपनी भूमिका चुनें",
+      "healthWorker": "स्वास्थ्य कार्यकर्ता",
+      "physician": "चिकित्सक",
+      "admin": "प्रशासक",
+      "enterName": "अपना नाम दर्ज करें",
+      "name": "आपका नाम"
+    },
+    "nav": {
+      "dashboard": "डैशबोर्ड",
+      "newScreening": "नई स्क्रीनिंग",
+      "records": "रिकॉर्ड",
+      "settings": "सेटिंग्स",
+      "analytics": "एनालिटिक्स"
+    },
+    "dashboard": {
+      "greeting": "वापस स्वागत है",
+      "newScreening": "नई स्क्रीनिंग",
+      "startScreening": "नई डीआर स्क्रीनिंग शुरू करें",
+      "recentScreenings": "हालिया स्क्रीनिंग",
+      "totalScreenings": "कुल स्क्रीनिंग",
+      "drPositive": "डीआर पॉजिटिव",
+      "referrals": "रेफरल किए गए",
+      "viewAll": "सभी देखें",
+      "noScreenings": "अभी तक कोई स्क्रीनिंग नहीं"
+    },
+    "intake": {
+      "title": "रोगी जानकारी",
+      "subtitle": "स्क्रीनिंग से पहले रोगी विवरण दर्ज करें",
+      "name": "पूरा नाम",
+      "age": "आयु",
+      "gender": "लिंग",
+      "male": "पुरुष",
+      "female": "महिला",
+      "other": "अन्य",
+      "village": "गांव / स्थान",
+      "patientId": "रोगी आईडी",
+      "phone": "फोन नंबर",
+      "continue": "स्कैन जारी रखें",
+      "required": "आवश्यक फ़ील्ड"
+    },
+    "upload": {
+      "title": "रेटिनल इमेज कैप्चर",
+      "subtitle": "AI विश्लेषण के लिए फंडस इमेज अपलोड या कैप्चर करें",
+      "dragDrop": "रेटिनल इमेज यहां ड्रैग और ड्रॉप करें",
+      "or": "या",
+      "browse": "फ़ाइलें ब्राउज़ करें",
+      "camera": "कैमरा उपयोग करें",
+      "useSample": "सैंपल इमेज उपयोग करें",
+      "supportedFormats": "समर्थित: JPG, PNG (अधिकतम 10MB)",
+      "analyze": "इमेज विश्लेषण करें",
+      "preview": "इमेज प्रीव्यू",
+      "remove": "हटाएं"
+    },
+    "processing": {
+      "analyzing": "रेटिनल इमेज का विश्लेषण",
+      "step1": "इमेज प्रीप्रोसेसिंग...",
+      "step2": "AI मॉडल चला रहे हैं...",
+      "step3": "व्याख्या तैयार कर रहे हैं...",
+      "step4": "परिणाम तैयार कर रहे हैं...",
+      "pleaseWait": "इसमें आमतौर पर कुछ सेकंड लगते हैं"
+    },
+    "result": {
+      "title": "स्क्रीनिंग परिणाम",
+      "severity": "डीआर गंभीरता ग्रेड",
+      "confidence": "AI विश्वास स्कोर",
+      "explainability": "AI व्याख्या",
+      "heatmapToggle": "एक्सप्लेनेबिलिटी हीटमैप",
+      "showHeatmap": "हीटमैप दिखाएं",
+      "hideHeatmap": "हीटमैप छुपाएं",
+      "rawImage": "मूल",
+      "overlay": "AI ओवरले",
+      "findings": "पाए गए निष्कर्ष",
+      "explanation": "सरल भाषा में व्याख्या",
+      "referral": "रेफरल सिफारिश",
+      "save": "रिकॉर्ड में सेव करें",
+      "export": "PDF निर्यात करें",
+      "share": "SMS से शेयर करें",
+      "newScreening": "नई स्क्रीनिंग",
+      "saved": "सफलतापूर्वक सेव हो गया!",
+      "exported": "PDF निर्यात हो गया!"
+    },
+    "severity": {
+      "none": "कोई डीआर नहीं",
+      "mild": "हल्का",
+      "moderate": "मध्यम",
+      "severe": "गंभीर",
+      "proliferative": "प्रोलिफेरेटिव"
+    },
+    "history": {
+      "title": "रोगी रिकॉर्ड",
+      "subtitle": "पिछले स्क्रीनिंग रिकॉर्ड देखें",
+      "search": "नाम या आईडी से खोजें...",
+      "filterVillage": "गांव से फ़िल्टर करें",
+      "filterSeverity": "गंभीरता से फ़िल्टर करें",
+      "all": "सभी",
+      "noResults": "कोई रिकॉर्ड नहीं मिला",
+      "date": "तारीख",
+      "patient": "रोगी",
+      "village": "गांव",
+      "result": "परिणाम"
+    },
+    "admin": {
+      "title": "एनालिटिक्स डैशबोर्ड",
+      "subtitle": "स्क्रीनिंग कार्यक्रम का अवलोकन",
+      "thisMonth": "इस महीने",
+      "drRate": "डीआर पॉजिटिव दर",
+      "screeningsOverTime": "समय के साथ स्क्रीनिंग",
+      "byVillage": "गांव अनुसार",
+      "bySeverity": "गंभीरता वितरण",
+      "recentScreenings": "हालिया स्क्रीनिंग"
+    },
+    "settings": {
+      "title": "सेटिंग्स",
+      "language": "भाषा",
+      "theme": "थीम",
+      "lightMode": "लाइट मोड",
+      "darkMode": "डार्क मोड",
+      "profile": "प्रोफ़ाइल",
+      "offline": "ऑफलाइन मोड",
+      "offlineDesc": "कनेक्ट होने पर सिंक के लिए स्क्रीनिंग कतारबद्ध करें",
+      "about": "बारे में",
+      "version": "संस्करण 1.0.0 — SIH 2026",
+      "logout": "लॉग आउट"
+    },
+    "offline": {
+      "status": "ऑफलाइन — परिणाम सिंक के लिए कतारबद्ध",
+      "syncing": "सिंक हो रहा है...",
+      "synced": "सारा डेटा सिंक हो गया"
+    },
+    "common": {
+      "back": "वापस",
+      "cancel": "रद्द करें",
+      "confirm": "पुष्टि करें",
+      "loading": "लोड हो रहा है...",
+      "error": "कुछ गलत हो गया",
+      "retry": "पुनः प्रयास करें"
+    }
+  }
+}

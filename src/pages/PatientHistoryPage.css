@@ -1,0 +1,162 @@
+.records-filter-bar {
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.search-input-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.search-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+}
+
+.search-input {
+  padding-left: 44px !important;
+}
+
+.filter-dropdowns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.filter-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-muted);
+}
+
+.filter-select {
+  padding: 10px 14px !important;
+  font-size: 0.875rem !important;
+}
+
+/* Records List */
+.record-card {
+  padding: 18px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  cursor: pointer;
+  border-radius: var(--radius-md) !important;
+}
+
+.record-main {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.record-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-safe));
+  color: white;
+  font-weight: 700;
+  font-size: 1.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.record-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.record-name-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.record-name {
+  font-weight: 600;
+  font-size: 1.0625rem;
+}
+
+.record-id {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  background: var(--glass-bg-hover);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+.record-sub {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+}
+
+.record-sub span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.record-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.record-arrow {
+  color: var(--text-muted);
+  transition: transform var(--transition-fast);
+}
+
+.record-card:hover .record-arrow {
+  transform: translateX(4px);
+  color: var(--accent-primary);
+}
+
+.empty-state {
+  padding: 48px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  color: var(--text-muted);
+}
+
+@media (max-width: 640px) {
+  .filter-dropdowns {
+    grid-template-columns: 1fr;
+  }
+
+  .record-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .record-right {
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 10px;
+    border-top: 1px solid var(--glass-border);
+  }
+
+  .record-sub {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+}
